@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>作業メモ電卓</title>
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#00A99D" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="作業メモ電卓" />
+    <style>
+      :root {
+        --primary: #00A99D;
+        --surface: #F9F9F9;
+        --bg: #FFFFFF;
+        --text: #222222;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: var(--bg);
+        color: var(--text);
+        font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        overflow-x: hidden;
+      }
+      #root-loader {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        gap: 1.5rem;
+      }
+      .loader-icon {
+        width: 64px;
+        height: 64px;
+        background: var(--primary);
+        border-radius: 1.25rem;
+        box-shadow: 0 10px 15px -3px rgba(0, 169, 157, 0.2);
+      }
+      .loader-text {
+        font-weight: 800;
+        color: var(--primary);
+        font-size: 1.25rem;
+        letter-spacing: -0.025em;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div id="root-loader">
+        <div class="loader-icon"></div>
+        <div class="loader-text">作業メモ電卓</div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

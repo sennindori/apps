@@ -1,0 +1,17 @@
+{
+  "name": "BizTracker Pro",
+  "short_name": "BizTracker",
+  "description": "Daily business efficiency tracker with dynamic aggregation.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1570/1570102.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

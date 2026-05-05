@@ -1,0 +1,6 @@
+{
+  "name": " 作業メモ電卓",
+  "description": "作業単位の点数/時間を記録してQRで貼り付けられるメモ",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
