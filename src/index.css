@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=JetBrains+Mono:wght@700&family=BIZ+UDPGothic:wght@400;700&display=swap');
+@import "tailwindcss";
+
 @theme {
-  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-sans: "Inter", "BIZ UDPGothic", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
   --color-primary: #00A99D;
   --color-accent: #FF7F50;
   --color-background: #FFFFFF;
@@ -7,7 +12,6 @@
   --color-border: #EFEFEF;
   --color-base-text: #222222;
 }
-@import "tailwindcss";
 
 @layer base {
   body {
